@@ -112,17 +112,17 @@ module PuppetDB
 
       path = '/commands'
 
-      payload = {
+      form_payload = {
         'command' => command,
         'version' => version,
         'payload' => payload
       }.to_json
 
-      debug("#{path} #{payload}")
+      debug("#{path} #{form_payload}")
 
       ret = self.class.post(
         path,
-        :body => {'payload' => payload},
+        :body => {'payload' => form_payload},
         :options => {
           :headers => {
             'Accept'       => 'application/json',
