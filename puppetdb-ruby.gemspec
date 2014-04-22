@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name          = 'puppetdb-ruby'
-  s.version       = '0.1.0'
-  s.date          = '2014-02-28'
+  s.version       = '1.0.0'
+  s.date          = '2014-04-22'
   s.summary       = 'Simple Ruby client library for PuppetDB API'
   s.authors       = ['Nathaniel Smith', 'Lindsey Smith', 'Robin Bowes']
   s.email         = 'info@puppetlabs.com'
