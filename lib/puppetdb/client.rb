@@ -108,7 +108,7 @@ module PuppetDB
       Response.new(ret.parsed_response, total)
     end
 
-    def command(command, payload, version = @version)
+    def command(command, payload, version)
 
       path = '/commands'
 
